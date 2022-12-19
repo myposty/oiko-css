@@ -1,0 +1,15 @@
+//@media screen and(min-width: map-get($bp,sm)) {
+//    .sm\:px-6 {
+//        padding-left: 1.5rem/* 24px */;
+//        padding-right: 1.5rem/* 24px */;
+//    }
+//}
+/*=====sm styles=========*/
+@media screen and(min-width: map-get($bp,sm)) {
+    @for $oiko from 1 to 20 {
+        .sm\:cols-sm-#{$oiko * 5}{
+            width: $oiko * 5%;
+        }
+    }
+}
+/*=====end sm=========*/

@@ -385,4 +385,141 @@
     --red-800: #8c231c;
     --red-900: #661a14;
   }
+}
+* {
+  transition: ease-in-out all 0.5s;
+}
+
+.card {
+  width: 100%;
+  height: 500px;
+  border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 7px 20px 1px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  box-shadow: 5px 7px 20px 1px rgba(0, 0, 0, 0.5);
+}
+.card .card-header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.card .card-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: ease-in-out 0.7s;
+}
+.card .card-header img:hover {
+  transition: ease-in-out 0.7s;
+  transform: scale(1.2);
+}
+.card .card-body {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  width: 100%;
+  height: 200px;
+}
+.card .card-footer {
+  height: 50px;
+}
+.card .card-footer a {
+  display: inline-block;
+  background-color: yellow;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 1.1rem;
+  float: right;
+  margin-right: 10px;
+}
+
+/*=====sm styles=========*/
+@media screen and (min-width: 640px) {
+  .sm\:cols-sm-5 {
+    width: 5%;
+  }
+  .sm\:cols-sm-10 {
+    width: 10%;
+  }
+  .sm\:cols-sm-15 {
+    width: 15%;
+  }
+  .sm\:cols-sm-20 {
+    width: 20%;
+  }
+  .sm\:cols-sm-25 {
+    width: 25%;
+  }
+  .sm\:cols-sm-30 {
+    width: 30%;
+  }
+  .sm\:cols-sm-35 {
+    width: 35%;
+  }
+  .sm\:cols-sm-40 {
+    width: 40%;
+  }
+  .sm\:cols-sm-45 {
+    width: 45%;
+  }
+  .sm\:cols-sm-50 {
+    width: 50%;
+  }
+  .sm\:cols-sm-55 {
+    width: 55%;
+  }
+  .sm\:cols-sm-60 {
+    width: 60%;
+  }
+  .sm\:cols-sm-65 {
+    width: 65%;
+  }
+  .sm\:cols-sm-70 {
+    width: 70%;
+  }
+  .sm\:cols-sm-75 {
+    width: 75%;
+  }
+  .sm\:cols-sm-80 {
+    width: 80%;
+  }
+  .sm\:cols-sm-85 {
+    width: 85%;
+  }
+  .sm\:cols-sm-90 {
+    width: 90%;
+  }
+  .sm\:cols-sm-95 {
+    width: 95%;
+  }
+}
+/*=====end sm=========*/
+@media screen and (min-width: 768px) {
+  .md\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .xxl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */
